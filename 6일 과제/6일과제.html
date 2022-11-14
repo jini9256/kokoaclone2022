@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>repl.it</title>
+
+    <style>
+      body {
+        background-color: orangered;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+      }
+
+      .one {
+        background-color: bisque;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        width: 300px;
+        height: 300px;
+        border: 2px solid black;
+      }
+
+      .two {
+        background-color: green;
+        border: 2px solid white;
+        width: 50px;
+        height: 50px;
+      }
+
+      #three {
+        background-color: green;
+        border: 2px solid white;
+        border-style: dotted;
+
+        width: 180px;
+        height: 50px;
+
+        margin: 35px auto 35px auto;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="one">
+      <div class="two"></div>
+      <div id="three"></div>
+      <div class="two"></div>
+    </div>
+  </body>
+</html>

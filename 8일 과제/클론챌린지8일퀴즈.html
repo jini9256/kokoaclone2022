@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Vidaloka&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Document</title>
+    <style>
+      * {
+        font-family: "Vidaloka", serif;
+      }
+
+      body {
+        background-color: bisque;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        text-align: justify;
+      }
+
+      #wrap {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        flex-wrap: wrap;
+      }
+      #wrap > #pa {
+        margin: 10px;
+      }
+      #pa {
+        width: 200px;
+        height: 400px;
+        background-color: tomato;
+        border: 5px solid white;
+      }
+
+      .child {
+        position: relative;
+        width: 200px;
+        height: 100px;
+        background-color: white;
+        top: 10%;
+      }
+
+      #pa:nth-child(2) {
+        background-color: teal;
+      }
+      #pa:nth-child(3) {
+        background-color: Burlywood;
+      }
+      #pa:last-child {
+        background-color: Thistle;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>The Best Colors</h1>
+    <div id="wrap">
+      <div id="pa">
+        <div class="child">
+          <br />Tomato<br /><br />
+          #FF6347<br />
+        </div>
+      </div>
+
+      <div id="pa">
+        <div class="child">
+          <br />Teal <br /><br />
+          #008080<br />
+        </div>
+      </div>
+
+      <div id="pa">
+        <div class="child">
+          <br />Burlywood <br /><br />
+          #DEB887<br />
+        </div>
+      </div>
+
+      <div id="pa">
+        <div class="child">
+          <br />
+          Thistle <br /><br />
+          #D7BFD7<br />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
