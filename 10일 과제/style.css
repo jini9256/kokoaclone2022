@@ -1,0 +1,145 @@
+
+
+    * {
+      font-family: "Archivo Black", sans-serif;
+    }
+    body {
+      height: 100%;
+      width: 100%;
+
+      display: flex;
+      justify-content: center;
+
+    }
+    .box {
+      width: 270px;
+      height: 500px;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      padding:30px 0 0 0 ;
+
+
+
+      border: 3px solid aquamarine;
+    }
+
+
+
+    .music-list{
+        display: flex;
+        flex-direction: row;
+        justify-content:flex-start
+        align-items: center;
+      }
+
+
+    .list-box {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: center;
+    }
+
+    .play {
+      width: 100px;
+      height: 30px;
+
+      border: 1.5px solid black;
+      border-radius: 10px;
+
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+
+      border-bottom-width: thick;
+    }
+    .play>i{
+      margin-right: 10px;
+    }
+
+
+    .heart,
+    .plus {
+      width: 30px;
+      height: 30px;
+
+      border: 1.5px solid black;
+      border-radius: 50px;
+
+      border-bottom-width: thick;
+
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .random_image {
+      width: 80px;
+      height: 80px;
+      background-color: orange;
+
+      border: 1.5px solid black;
+      border-radius: 10px;
+
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+
+      margin: 0 10px 0 10px;
+    }
+
+    .btn__image,.random{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .random{
+     margin: auto;
+    }
+
+
+    ul {
+      list-style: none;
+      padding-left: 28px;
+    }
+
+
+    li>span{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items:flex-start
+
+      margin:
+    }
+    .one {
+      width: 30px;
+      height: 30px;
+      background-color: tomato;
+
+      border: 1.5px solid black;
+      border-radius: 10px;
+
+      margin-bottom: 40px;
+    }
+    .one:nth-child(2){
+      background-color: rgb(234, 130, 148);
+    }
+    .one:nth-child(3){
+      background-color: rgb(100, 9, 218);
+    }
+    .one:last-child{
+      background-color: rgb(13, 187, 187);
+    }
+
+    p{
+      margin: 0px 0px 0px 0px; line-height: 120%;
+    }
