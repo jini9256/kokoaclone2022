@@ -1,0 +1,101 @@
+.main{
+  margin:20px;
+  align-items: center;
+  padding: auto;
+
+}
+
+.main-name{
+font-size: 20px;
+font-weight: 700;
+}
+
+.mainday{
+  margin:10px 0px 10px 10px;
+
+  display: flex;
+  flex-direction: row;
+  
+  align-items: center;
+  
+
+}
+
+
+.mainday-img{
+  width: 120px;
+  height:160px;
+  background-image:url("img_1.png") ;
+  background-size: cover;
+background-position: center;
+}
+
+.mainday-text_mean{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+
+.mainday-text_icon{
+  display: flex;
+  margin: 10px 10px 10px 0;
+  
+}
+
+
+
+.mainday-text_mean_1, .mainday-text_mean_2{
+  width: 70px;
+  height:20px;
+
+  background-color: rgb(202, 194, 194);
+  border-radius: 5px;
+  border: 1px solid transparent;
+
+  text-align: center;
+
+  margin: 5px;
+
+}
+
+.mainday-text_icon_1{
+
+  width:30px;
+  height:30px;
+
+  background-color: rgb(240, 200, 240);
+  border-radius: 50%;
+  border: 1px solid transparent;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color:red;
+  
+
+}
+
+.mainday-text_icon_2{
+  width: 98px;
+  height:24px;
+
+  background-color: rgb(83, 79, 79);
+  border-radius: 10px;
+  border: 1px solid transparent;
+
+  color: antiquewhite;
+  text-align: center;
+
+  margin-left: 30px;
+
+}
+
+.mainday-text_1{
+  line-height: 60%;
+}
+
+.mainday-text{
+  margin-left: 30px;
+}

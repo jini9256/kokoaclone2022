@@ -1,0 +1,45 @@
+.col{
+  display: flex;
+  flex-direction: row;
+  
+  align-items: center;
+}
+
+.card-img-top{
+  
+  height: 110px;
+
+  border-radius: 5px;
+}
+
+#card-box{
+  margin: 20px;
+}
+
+.card{
+  margin: 16px;
+}
+
+
+.main_popular{
+  width:100px;
+  height: 110px;
+  border-radius: 5px;
+
+  margin: 0 20px 0 0;
+
+}
+
+.main_2_singer{
+  display: flex;
+  flex-direction: row;
+
+  margin: 10px 20px;
+
+}
+
+.main_2_singer_1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

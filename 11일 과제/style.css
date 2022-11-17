@@ -1,0 +1,23 @@
+
+@import "search-bar.css";
+@import "header.css";
+@import "main-day.css";
+@import "main_singer.css";
+
+*{
+  font-family: 'Secular One', sans-serif;
+}
+
+body{
+  
+margin: 0;
+padding: 0;
+overflow: scroll;
+height: 100%;
+width:500px
+
+}
+
+.main-name{
+  margin: 20px;
+}
