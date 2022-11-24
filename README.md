@@ -67,9 +67,19 @@
 
 ### 🛠페이지 UPDATE (~ing)
 
-24일 login-page ⭕
+24일 start-page/login-page ⭕
+
+1. `시작페이지`
+
+![](https://velog.velcdn.com/images/jini9256/post/a445524c-baca-481d-a651-2d3dab298759/image.gif)
+
+2.`로그인페이지`
 
 <img src="https://velog.velcdn.com/images/jini9256/post/be916710-f3ed-45fe-b999-f06567c9ecde/image.png" height="650">
+
+
+
+
 
 ---
 
