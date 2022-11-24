@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+  font-size: 18px;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  background-image: url("https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbMCtpo%2FbtrkyPlt09E%2F8IYORSKd1CgxdrPRg6p4Vk%2Fimg.jpg");
+  background-size: cover;
+}
+
+.header {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 1px 8px;
+}
+
+.header > p {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.welcome-text {
+  margin: 90px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.welcome-text-one {
+  margin: 10px 0;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.welcome-text-two {
+  color: grey;
+  text-align: center;
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.form-text-btn {
+  display: flex;
+  flex-direction: column;
+
+  width: 90%;
+  margin: 0 30px;
+  text-align: center;
+}
+
+.form-btn,
+.form-text {
+  margin: 7px;
+  border: none;
+  padding: 15px;
+  border-radius: 20px;
+}
+
+.form-text {
+  border: 1px solid rgb(202, 198, 198);
+  font-size: 18px;
+  background-color: transparent;
+}
+
+input:focus {
+  outline: none;
+}
+
+.form-text:hover::placeholder {
+  color: rgb(188, 164, 207);
+}
+
+.form-btn:hover {
+  background-color: rgb(188, 164, 207);
+  font-size: 13px;
+}
+.form-text-btn > p {
+  font-size: 15px;
+  color: gray;
+}
